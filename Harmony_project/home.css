@@ -1,0 +1,1047 @@
+/*body*/
+
+body{
+    background-color: #01021D;
+    width: 1350px;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(1, 2, 29, 0.53);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    z-index:100;
+}
+
+.navbar-harmony-logo{
+    width: 230px;
+    height: 57px;
+    align-self: center;
+}
+
+.navbar-info a{
+    align-self: center;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar-đăng-nhập{
+    width: 110px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #3E3D3D;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.18px;
+    align-self: center;
+}
+
+/*landing-page-detail*/
+
+    /*cục đá*/
+
+.landing-page-vector115{
+    position: relative;
+    top: 181px;
+    left: -49px;
+}
+
+.landing-page-vector114{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+}
+
+.landing-page-vector118{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.landing-page-vector111{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.landing-page-vector119{
+    position: absolute;
+    top: 34px;
+    right: -20px;
+}
+
+.landing-page-vector113{
+    position: absolute;
+    top: 0;
+    right: -36px;
+}
+
+.landing-page-vector112{
+    position: absolute;
+    top: -1px;
+    right: 42px;
+}
+
+.landing-page-vector116{
+    position: absolute;
+    top: 515px;
+    right: -78px;
+}
+
+.landing-page-vector117{
+    position: absolute;
+    top: 606px;
+    right: 127px;
+}
+
+    /*con cục rối*/
+
+.landing-page-group364{
+    position: absolute;
+    top: 385px;
+    right: 574px;
+}
+
+.landing-page-group365{
+    position: absolute;
+    top: 404px;
+    right: 682.5px;
+}
+
+.landing-page-group366{
+    position: absolute;
+    top: 389px;
+    right: 752px;
+}
+
+.landing-page-group367{
+    position: absolute;
+    top: 534px;
+    left: 248px;
+}
+
+.landing-page-group399{
+    position: absolute;
+    top: 517px;
+    right: 246px;
+}
+
+.landing-page-group400{
+    position: absolute;
+    top: 176px;
+    left: 193px;
+}
+
+.landing-page-group401{
+    position: absolute;
+    top: 288px;
+    left: 241px;
+}
+
+.landing-page-group402{
+    position: absolute;
+    top: 723px;
+    right: 348px;
+}
+
+.landing-page-group403{
+    position: absolute;
+    top: 356px;
+    right: 313px;
+}
+
+.landing-page-group550{
+    position: absolute;
+    top: 292px;
+    right: 575.73px;
+}
+
+.landing-page-ellipse73{
+    position: absolute;
+    top: 416px;
+    right: 476.5px;
+}
+
+.landing-page-BlurVector1{
+    position: absolute;
+    top: 78px;
+    right: 130px;
+}
+
+    /*bong bóng*/
+
+.landing-page-group382{
+    position: absolute;
+    top: 449px;
+    left: 512px;
+}
+
+.landing-page-group383{
+    position: absolute;
+    top: 349px;
+    left: 433px;
+}
+
+.landing-page-group384{
+    position: absolute;
+    top: 197px;
+    left: 514px;
+}
+
+.landing-page-group379{
+    position: absolute;
+    top: 114.2px;
+    right: 527px;
+}
+
+.landing-page-group380{
+    position: absolute;
+    top: 321px;
+    right: 450px;
+}
+
+.landing-page-group381{
+    position: absolute;
+    top: 473px;
+    right: 475px;
+}
+
+    /*quote*/
+
+.landing-page-quote{
+    color: #fff;
+    width: 460px;
+    height: 148px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 597px;
+    right: 440px;
+}
+
+
+/*tầm quan trọng sktt*/
+
+.landing-page-vector124{
+    position: absolute;
+    top: 1530px;
+    right: 0px;
+}
+
+.landing-page-vector125{
+    position: absolute;
+    top: 1534px;
+    left: 0px;
+}
+
+.landing-page-vector126{
+    position: absolute;
+    top: 1633px;
+    left: 0px;
+}
+
+.landing-page-group398{
+    position: absolute;
+    top: 1572px;
+    right: 0px;
+}
+
+.landing-page-group365-1{
+    position: absolute;
+    top: 1881px;
+    right: 137px;
+}
+
+.landing-page-vector{
+    position: absolute;
+    top: 1423px;
+    left: -20px;
+}
+
+
+
+
+.landing-page-tamquantrong{
+    color: #FFF;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    line-height: 60px;
+}
+
+.suckhoetamthan{
+    font-size: 48px;
+    width: 600px;
+    height: 70px;
+    font-weight: 700px;
+    position: absolute;
+    top: 1663px;
+    left: 380px;
+}
+
+.tamquantrong{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+    width: 760px;
+    height: 70px;
+    position: absolute;
+    top: 1724px;
+    left: 300px;
+}
+
+
+
+.tamquantrong-harmony{
+    color: rgba(111, 111, 111, 0.48);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 60px;
+}
+
+.harmony1{
+    font-size: 128px;
+    position: absolute;
+    top: 2091px;
+    left: -1100px;
+}
+
+.harmony2{
+    font-size: 164px;
+    position: absolute;
+    top: 2758px;
+    right: -1100px;
+}
+
+.tamquantrong-harmony-text{
+    color: rgba(234, 234, 234, 0.26);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 60px;
+}
+
+.tamquantrong-text{
+    transform: rotate(-90deg);
+    font-size: 56px;
+    position: absolute;
+    bottom: 2504px;
+    left: -20px;
+    margin-top: 3800px;
+    margin-left: -40px;
+}
+
+.suckhoetamthan-text{
+    transform: rotate(90deg);
+    font-size: 36px;
+    position: absolute;
+    bottom: 2504px;
+    right: 64px;
+    margin-top: 1100px;
+    margin-right: -30px;
+}
+
+.box1{
+    width: 1350px;
+    height: 1150px;
+    background-color: #01021D;
+    position: absolute;
+    top: 900px;
+}
+
+.box2{
+    width: 1350px;
+    height: 3000px;
+    background-color: #01021D;
+    position: absolute;
+    top: 2900px;
+}
+
+
+
+.line1{
+    width: 394px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    top: 2124px;
+    left: 188px;
+}
+
+.line2{
+    width: 1px;
+    height: 178px;
+    background: #FFF;
+    position: absolute;
+    top: 2114px;
+    left: 280px;
+}
+
+.line3{
+    width: 1px;
+    height: 107px;
+    background: #FFF;
+    position: absolute;
+    top: 2698px;
+    left: 280px;
+}
+
+.line4{
+    width: 59px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    top: 2797px;
+    left: 267px;
+}
+
+.line5{
+    width: 451px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    top: 2818px;
+    right: 227px;
+}
+
+.line6{
+    width: 1px;
+    height: 384px;
+    background: #FFF;
+    position: absolute;
+    top: 2449px;
+    right: 289px;
+}
+
+.tamquantrong1{
+    display: flex;
+    justify-content: center;
+}
+
+.tamquantrong1-border{
+    width: 560px;
+    height: 198px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 2143px;
+    left: 299px;
+}
+
+.tamquantrong1-padding{
+    width: 540.42px;
+    height: 180px;
+    border-radius: 30px;
+    background: #D9D9D9;
+    filter: blur(5px);
+    position: absolute;
+    top: 2153px;
+    left: 309.75px;
+}
+
+.tamquantrong1-content{
+    width: 486.344px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    position: absolute;
+    top: 2162px;
+    left: 335.83px;
+}
+
+.tamquantrong2{
+    display: flex;
+    justify-content: center;
+}
+
+.tamquantrong2-border{
+    width: 640px;
+    height: 191px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 2375px;
+    right: 303px;
+}
+
+.tamquantrong2-padding{
+    width: 620.585px;
+    height: 172.344px;
+    border-radius: 30px;
+    background: #D9D9D9;
+    filter: blur(5px);
+    position: absolute;
+    top: 2385px;
+    right: 313.71px;
+}
+
+.tamquantrong2-content{
+    width: 565.754px;
+    height: 106.605px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    top: 2390px;
+    right: 321.25px;
+}
+
+.tamquantrong3{
+    display: flex;
+    justify-content: center;
+}
+
+.tamquantrong3-border{
+    width: 569px;
+    height: 169px;
+    border-radius: 35px;
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 2603px;
+    left: 299px;
+}
+
+.tamquantrong3-padding{
+    width: 551px;
+    height: 146px;
+    border-radius: 30px;
+    background: #D9D9D9;
+    filter: blur(5px);
+    position: absolute;
+    top: 2616px;
+    left: 310px;
+}
+
+.tamquantrong3-content{
+    width: 503px;
+    height: 98px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    top: 2627px;
+    left: 332px;
+}
+
+.tamquantrong-loiich{
+    position: absolute;
+    top: 2265px;
+    left: 763px;
+}
+
+.tamquantrong-baitap{
+    position: absolute;
+    top: 2488px;
+    right: 875px;
+}
+
+.tamquantrong-tomlai{
+    position: absolute;
+    top: 2697px;
+    left: 797px;
+}
+
+
+/*harmony có gì?*/
+
+.harmonycogi-group408{
+    position: absolute;
+    top: 3427px;
+    left: 286px;
+}
+
+.harmonycogi-group409{
+    position: absolute;
+    top: 3378px;
+    right: 361px;
+}
+
+.harmonycogi-group410{
+    position: absolute;
+    top: 3485px;
+    left: 528px;
+}
+
+.harmonycogi-group411{
+    position: absolute;
+    top: 3335px;
+    right: 279.49px;
+}
+
+.harmonycogi-vector120{
+    position: absolute;
+    top: 3329px;
+    right: 0px;
+}
+
+.harmonycogi-vector121{
+    position: absolute;
+    top: 3335px;
+    right: 0;
+}
+
+.harmonycogi-vector122{
+    position: absolute;
+    top: 3336px;
+    right: 0px;
+}
+
+.harmonycogi-blurvector{
+    position: absolute;
+    top: 3102px; /*2880*/
+    right: 0px;
+    margin-top: 0px;
+    margin-right: 1300px;
+}
+
+.harmonycogi-vector123{
+    position: absolute;
+    top: 3604px;
+    right: 209px;
+}
+
+.harmonycogi-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    position: absolute;
+    top: 3750.6px;
+    left: 459px;
+}
+
+.harmonycogi-p{
+    width: 633px;
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    top: 3837.6px;
+    left: 363px;
+}
+
+
+
+
+.harmonycogi{
+    width: 681px;
+    height: 938px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    top: 4017.6px;
+    left: 334.5px;
+}
+
+.harmonycogi-nkcx{
+    display: flex;
+    order: 1;
+}
+
+.nkcx-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: #FEEFD2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nkcx{
+    width: 198px;
+    height: 60px;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+.nkcx-icon{
+    width: 201px;
+    height: 201px;
+    position: absolute;
+    top: 85px;
+    left: 60px;
+}
+
+.harmonycogi-DrAI{
+    display: flex;
+    order: 3;
+}
+
+.DrAI-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: #BDC4FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.DrAI{
+    width: 166px;
+    height: 113px;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 344px;
+    left: 27px;
+}
+
+.DrAI-icon{
+    width: 152.889px;
+    height: 161.25px;
+    position: absolute;
+    top: 438.12px;
+    left: 83.55px;
+}
+
+.harmonycogi-congdong{
+    display: flex;
+    order: 2;
+}
+
+.congdong-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: #BDC4FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.congdong{
+    width: 258px;
+    height: 113px;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 23px;
+    right: 35px;
+}
+
+.congdong-icon{
+    width: 254px;
+    height: 230px;
+    position: absolute;
+    top: 70px;
+    right: 32px;
+}
+
+.harmonycogi-thuvien{
+    display: flex;
+    order: 4;
+}
+
+.thuvien-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: #FEEFD2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.thuvien{
+    width: 227px;
+    height: 113px;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 344px;
+    right: 66px;
+}
+
+.thuvien-icon{
+    width: 273px;
+    height: 193px;
+    position: absolute;
+    top: 420px;
+    right: 24px;
+}
+
+.harmonycogi-minigame{
+    display: flex;
+    order: 5;
+}
+
+.minigame-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    background: #FEEFD2;
+}
+
+.minigame{
+    width: 192px;
+    height: 112px;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 660px;
+    left: 27px;
+}
+
+.minigame-icon{
+    width: 240px;
+    height: 217.5px;
+    position: absolute;
+    top: 702.75px;
+    left: 55.11px;
+}
+
+.harmonycogi-whatsnext{
+    display: flex;
+    order: 6;
+}
+
+.whatsnext-padding{
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+    border: 3px dashed #BDC4FF;
+    background: rgba(217, 217, 217, 0.15);
+}
+
+.whatsnext{
+    width: 188.444px;
+    height: 150.418px;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -0.38px;
+    position: absolute;
+    top: 650px;
+    right: 81.78px;
+}
+
+.haygopy{
+    width: 220px;
+    height: 52px;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    position: absolute;
+    top: 855px;
+    right: 73px;
+}
+
+.harmonycogi-arrow10{
+    width: 26px;
+    height: 1;
+    stroke-width: 3px;
+    stroke: #BDC4FF;
+    position: absolute;
+    top: 875px;
+    right: 61px;
+}
+
+.harmonycogi-question-icon{
+    width: 28.474px;
+    height: 41.076px;
+    position: absolute;
+    top: 860px;
+    right: 20.53px;
+}
+
+/*footer*/
+
+.footer-rectangle371{
+    width: 1800px;
+    height: 380px;
+    background: #1A202C;
+    position: absolute;
+    top: 5688px;
+    left: 0px;
+}
+
+.footer-group548{
+    width: 449.201px;
+    height: 501.973px;
+    position: absolute;
+    top: 5303px;
+    left: 93px;
+}
+
+.footer-group416{
+    width: 96.636px;
+    height: 105.429px;
+    position: absolute;
+    top: 5612px;
+    right: 220.08px;
+}
+
+.footer-harmony-info{
+    width: 511px;
+    height: 24px;
+    color: #FFF;
+    font-feature-settings: 'calt' off;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 5827px;
+    left: 470px;
+}
+
+.footer-harmonylogo{
+    width: 230px;
+    height: 57px;
+    position: absolute;
+    top: 5750px;
+    left: 620px;
+}
+
+.footer-icon{
+    width: 254.319px;
+    height: 26.533px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    top: 5945px;
+    left: 600.8405px;
+}
+
+.footer-envelope{
+    width: 26.533px;
+    height: 19.9px;
+    display: flex;
+    align-self: center;
+}
+
+.footer-stayintouch{
+    width: 150px;
+    height: 24px;
+    color: #A3B2CD;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 5892px;
+    left: 652.6px;
+}
+
+.footer-copyright{
+    width: 180px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    top: 6010.86px;
+    left: 636.7px;
+}
+.copyright-icon{
+    width: 9px;
+    height: 9px;
+    align-self: center;
+}
+
+.copyright{
+    color: #B2BED6;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.13px;
+}
+
+.box1{
+    width: 1350px;
+    height: 1150px;
+    background-color: #01021D;
+    position: absolute;
+    top: 900px;
+}
+
+.box2{
+    width: 1350px;
+    height: 3000px;
+    background-color: #01021D;
+    position: absolute;
+    top: 2900px;
+}

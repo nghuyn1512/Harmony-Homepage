@@ -1,0 +1,372 @@
+body{
+    background-color: #01021D;
+    width: 1350px;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(1, 2, 29, 0.53);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    z-index:100;
+}
+
+.navbar-harmony-logo{
+    width: 230px;
+    height: 57px;
+    align-self: center;
+}
+
+.navbar-info a{
+    align-self: center;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar-đăng-nhập{
+    width: 110px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #3E3D3D;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.18px;
+    align-self: center;
+}
+.heading h1{
+    color:#FFF;
+    margin-top: 80px;
+    font-family: Be Vietnam Pro;
+    font-size:55px;
+    text-align: center;
+    position: relative;
+}
+.content{
+    font-family: Quicksand;
+    font-size: 20px;
+    color: #FFF;
+    width: 60%;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.heading-1{
+    font-family:Be Vietnam Pro;
+    font-size:25px;
+    color:#fff;
+
+}
+.hero-content{
+    flex:1;
+    margin:0px 0px;
+    width:600px;
+}
+.image{
+    flex: 1;
+    margin: auto;
+    margin-left: 97%;
+    margin-top:-60%;
+    height:auto;
+    width:50%;
+}
+
+.heading-2{
+    font-family:Be Vietnam Pro;
+    font-size:25px;
+    color:#fff;
+    position: relative;
+    text-align: center;
+
+}
+.heading03{
+    font-family:Be Vietnam Pro;
+    font-size:25px;
+    color:#fff;
+    position: relative;
+    text-align: center;
+
+}
+.text{
+    font-family:Quicksand;
+    font-size:20px;
+    color:#fff;
+    position: relative;
+    text-align: center;
+
+}
+/*footer*/
+
+.card.img-box{
+    height:100px;
+    width:100px;
+    position: relative;
+}
+.card.image .card-img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+.card{
+    background-color: #fff;
+}
+.name-role{
+    font-family: Quicksand;
+    color:black;
+    font-size: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 20px;
+    grid-gap: 20px;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 8px 10px #fff;
+}
+.container{
+    position: relative;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container:after{
+    content: "";
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color:black;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.details>h4{
+    color: black;
+    text-align: center;
+    font-family:Quicksand;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.slider{
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+/*footer*/ 
+.footer-rectangle371{
+    width: 1800px;
+    height: 380px;
+    background: #1A202C;
+    position: absolute;
+    top: 2885px;
+    left: 0px;
+}
+
+.footer-group548{
+    width: 449.201px;
+    height: 501.973px;
+    position: absolute;
+    top: 2500px;
+    left: 93px;
+}
+
+.footer-group416{
+    width: 96.636px;
+    height: 105.429px;
+    position: absolute;
+    top: 2800px;
+    right: 220.08px;
+}
+
+.footer-harmony-info{
+    width: 511px;
+    height: 24px;
+    color: #FFF;
+    font-feature-settings: 'calt' off;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 3030px;
+    left: 470px;
+}
+
+.footer-harmonylogo{
+    width: 230px;
+    height: 57px;
+    position: absolute;
+    top: 2950px;
+    left: 620px;
+}
+
+.footer-icon{
+    width: 254.319px;
+    height: 26.533px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    top: 3145px;
+    left: 600.8405px;
+}
+
+
+.footer-stayintouch{
+    width: 150px;
+    height: 24px;
+    color: #A3B2CD;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.24px;
+    position: absolute;
+    top: 3092px;
+    left: 652.6px;
+}
+
+.footer-copyright{
+    width: 180px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    top: 3210.86px;
+    left: 636.7px;
+}
+.copyright-icon{
+    width: 9px;
+    height: 9px;
+    align-self: center;
+}
+
+.copyright{
+    color: #B2BED6;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.13px;
+}
+
+.box1{
+    width: 1350px;
+    height: 1150px;
+    background-color: #01021D;
+    position: absolute;
+    top: 900px;
+}
+
+.box2{
+    width: 1350px;
+    height: 3000px;
+    background-color: #01021D;
+    position: absolute;
+    top: 2900px;
+}

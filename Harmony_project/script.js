@@ -10,7 +10,6 @@ let line3 = document.getElementById('line3');
 let line4 = document.getElementById('line4');
 let line5 = document.getElementById('line5');
 let line6 = document.getElementById('line6');
-let blurvector = document.getElementById('blurvector');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
@@ -22,5 +21,4 @@ window.addEventListener('scroll', () => {
     tamquantrongtext.style.top = value * -0.7 +'px';
     suckhoetamthantext.style.top = value * 0.7 +'px';
     blurvector.style.right = value * -0.7 +'px';
-
 })

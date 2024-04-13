@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="global.css">
     <link
       rel="stylesheet"
@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
     />
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 </head>
 <body>
@@ -246,12 +247,11 @@
 
         <img class="footer-group416" src="image/Group 416.svg" alt="">
 
-        <div class="footer-harmony-info">
-            <div class="footer-about">About</div>
-            <div class="footer-thuvien">Thư viện</div>
-            <div class="footer-diendan">Về chúng tôi</div>
+        <footer class="footer-harmony-info">
+            <a href="library.html">Thư viện</a>
+            <a href="about-us.html">Về chúng tôi</a>
             <div class="footer-bacsiAI">Cộng đồng</div>
-        </div>
+        </footer>
 
         <img class="footer-harmonylogo" src="image/harmony-logo 1.svg" alt="">
 
@@ -279,21 +279,17 @@
 
         <!--navbar-->
 
-        <div class="navbar">
-            <img class="navbar-harmony-logo" src="image/harmony-logo 1.svg" alt="This is Harmony's logo">
-
-            <div class="navbar-info">
-                <span class="navbar-thư-viện">Thư viện</span>
-
-                <span class="navbar-diễn-đàn">Về chúng tôi</span>
-
-                <span class="navbar-bacsi-AI">Cộng đồng</span>
-
-            </div>
-
+        <header class="header">
+            <a href="home.html">
+                <img class="navbar-harmony-logo" src="image/harmony-logo 1.svg" alt="This is Harmony's logo">
+            </a>
+            <nav class="navbar-info">
+                <a href="library.html">Thư viện</a>
+                <a href ='about-us.html'> Về chúng tôi</a>
+                <a href="#">Cộng đồng</a>
+            </nav>
             <button class="navbar-đăng-nhập">Đăng nhập</button>
-        </div>
-    
+        </header>
     </div>
 
     <script src="script.js"></script>
