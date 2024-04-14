@@ -4,7 +4,7 @@
 
 ## About
 
--   This website was built as a way to participate in the [**STEAMHacks Hackathon 2023 Round 2**](https://sites.google.com/steamforvietnam.org/steamhacks23/t%E1%BB%95ng-quan-cu%E1%BB%99c-thi/round-2/mental-health)
+-   This website was built as a way to participate in the [**STEAMHacks Hackathon 2023**](https://sites.google.com/steamforvietnam.org/steamhacks23/t%E1%BB%95ng-quan-cu%E1%BB%99c-thi/round-2/mental-health)
 -   Specialized in mental health support for teenagers specifically
 -   Our project using HTML, CSS, and Javascript.
 
