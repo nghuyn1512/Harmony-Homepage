@@ -20,6 +20,6 @@ Clone the project on your local machine
 $ git clone https://github.com/nghuyn1512/Harmony-Homepage.git
 ```
 
-3. Navigate to the `Hamony_project/home.html` folder
+3. Navigate to the `Hamony_project/home.html` file
 
 5. Open [http://127.0.0.1:5500/Harmony_project/home.html](http://127.0.0.1:5500/Harmony_project/home.html) to see the result
